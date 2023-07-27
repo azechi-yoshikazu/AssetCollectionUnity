@@ -1,0 +1,10 @@
+{
+  "name": "com.yoshikazuazechi.assetcollection",
+  "displayName": "AssetCollection",
+  "version": "0.1.0",
+  "unity": "2022.3.0f1",
+  "description": "Make your collection for quick access to essential assets.",
+  "author": {
+    "name": "YoshikazuAzechi"
+  }
+}
