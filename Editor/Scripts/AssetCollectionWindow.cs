@@ -21,7 +21,7 @@ public class AssetCollectionWindow : EditorWindow
 
     private void OnEnable()
     {
-        var tree = Resources.Load<VisualTreeAsset>("AssetCollection");
+        var tree = Resources.Load<VisualTreeAsset>("MainWindow");
 
         tree.CloneTree(rootVisualElement);
 
