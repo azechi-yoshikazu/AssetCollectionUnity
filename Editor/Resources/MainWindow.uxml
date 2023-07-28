@@ -3,6 +3,6 @@
     <ui:Template name="AssetView" src="project://database/Packages/com.yoshikazuazechi.assetcollection/Editor/Resources/AssetView.uxml?fileID=9197481963319205126&amp;guid=14408fb20dee8f648ae22669da95eb49&amp;type=3#AssetView" />
     <ui:VisualElement name="Root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
         <ui:Instance template="CollectionView" name="CollectionView" style="flex-grow: 1;" />
-        <ui:Instance template="AssetView" name="AssetView" style="flex-grow: 1;" />
+        <ui:Instance template="AssetView" name="AssetView" style="flex-grow: 2;" />
     </ui:VisualElement>
 </ui:UXML>

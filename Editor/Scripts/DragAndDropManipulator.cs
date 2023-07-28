@@ -47,7 +47,6 @@ namespace AssetCollection
         {
             if (DragAndDrop.paths.Length > 0)
             {
-                Debug.Log($"Droped {String.Join(", ", DragAndDrop.paths)}");
                 DroppedAction?.Invoke();
             }
         }
