@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:ListView focusable="true" name="AssetList" view-data-key="AssetList" show-add-remove-footer="false" style="align-items: stretch; max-height: none; min-height: auto; align-self: auto; flex-grow: 1;" />
+    <ui:VisualElement name="DropArea" view-data-key="DropArea" style="background-color: rgba(0, 0, 0, 0.5); align-items: center; justify-content: center; border-top-left-radius: 8px; border-bottom-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; width: auto; height: auto; max-height: none; min-height: 30%;">
+        <ui:Label tabindex="-1" text="Drop Here" display-tooltip-when-elided="true" name="LabelDropHere" style="align-items: auto; align-self: auto; justify-content: flex-start; -unity-text-align: upper-center;" />
+    </ui:VisualElement>
+</ui:UXML>
